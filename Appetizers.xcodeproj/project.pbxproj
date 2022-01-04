@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F8FF2784B17300B36980 /* AppetizersApp.swift */; };
-		CE14F9022784B17300B36980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9012784B17300B36980 /* ContentView.swift */; };
+		CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9012784B17300B36980 /* AppetizerTabView.swift */; };
 		CE14F9042784B17300B36980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE14F9032784B17300B36980 /* Assets.xcassets */; };
 		CE14F9072784B17300B36980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE14F9062784B17300B36980 /* Preview Assets.xcassets */; };
+		CE14F90E2784B20400B36980 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F90D2784B20400B36980 /* AppetizerListView.swift */; };
+		CE14F9102784B21400B36980 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F90F2784B21400B36980 /* AccountView.swift */; };
+		CE14F9122784B21C00B36980 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9112784B21C00B36980 /* OrderView.swift */; };
+		CE14F9142784BCB500B36980 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9132784BCB500B36980 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE14F8FC2784B17300B36980 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14F8FF2784B17300B36980 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		CE14F9012784B17300B36980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE14F9012784B17300B36980 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		CE14F9032784B17300B36980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE14F9062784B17300B36980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE14F90D2784B20400B36980 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		CE14F90F2784B21400B36980 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		CE14F9112784B21C00B36980 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CE14F9132784BCB500B36980 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				CE14F8FF2784B17300B36980 /* AppetizersApp.swift */,
-				CE14F9012784B17300B36980 /* ContentView.swift */,
+				CE14F9012784B17300B36980 /* AppetizerTabView.swift */,
+				CE14F90D2784B20400B36980 /* AppetizerListView.swift */,
+				CE14F90F2784B21400B36980 /* AccountView.swift */,
+				CE14F9112784B21C00B36980 /* OrderView.swift */,
+				CE14F9132784BCB500B36980 /* Appetizer.swift */,
 				CE14F9032784B17300B36980 /* Assets.xcassets */,
 				CE14F9052784B17300B36980 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE14F9022784B17300B36980 /* ContentView.swift in Sources */,
+				CE14F9142784BCB500B36980 /* Appetizer.swift in Sources */,
+				CE14F9102784B21400B36980 /* AccountView.swift in Sources */,
+				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
+				CE14F90E2784B20400B36980 /* AppetizerListView.swift in Sources */,
+				CE14F9122784B21C00B36980 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

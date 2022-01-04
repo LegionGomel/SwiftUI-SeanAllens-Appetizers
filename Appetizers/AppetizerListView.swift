@@ -1,0 +1,23 @@
+//
+//  AppetizerListView.swift
+//  Appetizers
+//
+//  Created by Yuri Ershov on 4.01.22.
+//
+
+import SwiftUI
+
+struct AppetizerListView: View {
+    var body: some View {
+        NavigationView {
+            Text("Appetizer list view")
+                .navigationTitle("Appetizers")
+        }
+    }
+}
+
+struct AppetizerListView_Previews: PreviewProvider {
+    static var previews: some View {
+        AppetizerListView()
+    }
+}
