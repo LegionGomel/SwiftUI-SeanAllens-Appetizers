@@ -15,6 +15,7 @@
 		CE14F9102784B21400B36980 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F90F2784B21400B36980 /* AccountView.swift */; };
 		CE14F9122784B21C00B36980 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9112784B21C00B36980 /* OrderView.swift */; };
 		CE14F9142784BCB500B36980 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14F9132784BCB500B36980 /* Appetizer.swift */; };
+		CE1B367C2784C9E200C33BDE /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE14F90F2784B21400B36980 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		CE14F9112784B21C00B36980 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		CE14F9132784BCB500B36980 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CE14F8FF2784B17300B36980 /* AppetizersApp.swift */,
 				CE14F9012784B17300B36980 /* AppetizerTabView.swift */,
 				CE14F90D2784B20400B36980 /* AppetizerListView.swift */,
+				CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */,
 				CE14F90F2784B21400B36980 /* AccountView.swift */,
 				CE14F9112784B21C00B36980 /* OrderView.swift */,
 				CE14F9132784BCB500B36980 /* Appetizer.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE14F9142784BCB500B36980 /* Appetizer.swift in Sources */,
+				CE1B367C2784C9E200C33BDE /* AppetizerListCell.swift in Sources */,
 				CE14F9102784B21400B36980 /* AccountView.swift in Sources */,
 				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
