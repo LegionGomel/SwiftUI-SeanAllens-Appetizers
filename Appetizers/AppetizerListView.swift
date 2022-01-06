@@ -13,7 +13,7 @@ struct AppetizerListView: View {
             List(MockData.appetizers) { appetizer in
                 AppetizerListCell(appetizer: appetizer)
             }
-            .navigationTitle("Appetizers")
+            .navigationTitle("🍟 Appetizers")
         }
     }
 }
