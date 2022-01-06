@@ -19,6 +19,7 @@
 		CE1B367E2787456000C33BDE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B367D2787456000C33BDE /* NetworkManager.swift */; };
 		CE1B36802787472600C33BDE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B367F2787472600C33BDE /* APError.swift */; };
 		CE1B36822787518200C33BDE /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36812787518200C33BDE /* AppetizerListViewModel.swift */; };
+		CE1B36842787596C00C33BDE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36832787596C00C33BDE /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CE1B367D2787456000C33BDE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CE1B367F2787472600C33BDE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		CE1B36812787518200C33BDE /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		CE1B36832787596C00C33BDE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				CE1B367F2787472600C33BDE /* APError.swift */,
 				CE14F90F2784B21400B36980 /* AccountView.swift */,
 				CE14F9112784B21C00B36980 /* OrderView.swift */,
+				CE1B36832787596C00C33BDE /* Alert.swift */,
 				CE14F9032784B17300B36980 /* Assets.xcassets */,
 				CE14F9052784B17300B36980 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE1B367E2787456000C33BDE /* NetworkManager.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
+				CE1B36842787596C00C33BDE /* Alert.swift in Sources */,
 				CE14F90E2784B20400B36980 /* AppetizerListView.swift in Sources */,
 				CE14F9122784B21C00B36980 /* OrderView.swift in Sources */,
 			);
