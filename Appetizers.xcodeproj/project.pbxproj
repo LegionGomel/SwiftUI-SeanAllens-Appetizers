@@ -22,6 +22,7 @@
 		CE1B36842787596C00C33BDE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36832787596C00C33BDE /* Alert.swift */; };
 		CE1B368627880BC300C33BDE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B368527880BC300C33BDE /* LoadingView.swift */; };
 		CE1B368827880CF900C33BDE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B368727880CF900C33BDE /* Color+Ext.swift */; };
+		CE1B368A2788150A00C33BDE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36892788150A00C33BDE /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		CE1B36832787596C00C33BDE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CE1B368527880BC300C33BDE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CE1B368727880CF900C33BDE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		CE1B36892788150A00C33BDE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */,
 				CE14F9132784BCB500B36980 /* Appetizer.swift */,
 				CE1B367D2787456000C33BDE /* NetworkManager.swift */,
+				CE1B36892788150A00C33BDE /* RemoteImage.swift */,
 				CE1B367F2787472600C33BDE /* APError.swift */,
 				CE14F90F2784B21400B36980 /* AccountView.swift */,
 				CE14F9112784B21C00B36980 /* OrderView.swift */,
@@ -179,6 +182,7 @@
 				CE1B368627880BC300C33BDE /* LoadingView.swift in Sources */,
 				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE1B367E2787456000C33BDE /* NetworkManager.swift in Sources */,
+				CE1B368A2788150A00C33BDE /* RemoteImage.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
 				CE1B36842787596C00C33BDE /* Alert.swift in Sources */,
 				CE14F90E2784B20400B36980 /* AppetizerListView.swift in Sources */,
