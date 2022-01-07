@@ -11,12 +11,15 @@ final class AppetizerListViewModel: ObservableObject {
     
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
+    @Published var isLoading = false
     
     func getAppetizers() {
+        isLoading = true
         // To not to use everytime self word (self.alettItem, for example)
         // we can use [self] in closures
         NetworkManager.shared.getAppetizers { [self] result in
             DispatchQueue.main.async {
+                isLoading = false
                 switch result {
                 case .success(let appetizers):
                     // here we MUST use self because of same naming
