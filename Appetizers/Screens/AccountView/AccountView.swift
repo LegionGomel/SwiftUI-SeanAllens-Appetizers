@@ -23,7 +23,7 @@ struct AccountView: View {
                         .disableAutocorrection(true)
                     DatePicker("Birthday", selection: $viewModel.birthdate, displayedComponents: .date)
                     Button {
-                        print("save")
+                        viewModel.saveChanges()
                     } label: {
                         Text("Save changes")
                     }
