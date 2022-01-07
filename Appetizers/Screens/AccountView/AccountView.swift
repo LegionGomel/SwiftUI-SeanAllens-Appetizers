@@ -13,6 +13,8 @@ struct AccountView: View {
     @State private var lastName = ""
     @State private var email = ""
     @State private var birthdate = Date()
+    @State private var extraNapkins = false
+    @State private var frequentRefills = false
     
     var body: some View {
         NavigationView {
@@ -33,6 +35,14 @@ struct AccountView: View {
                 } header: {
                     Text("Personal Info")
                 }
+                Section {
+                    Toggle("Extra Napkins", isOn: $extraNapkins)
+                    Toggle("Frequent Refills", isOn: $frequentRefills)
+                } header: {
+                    Text("Requests")
+                }
+                .tint(Color.brandPrimary)
+
             }
             .navigationTitle("🤣 Account")
         }
