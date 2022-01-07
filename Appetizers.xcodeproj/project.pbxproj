@@ -27,6 +27,7 @@
 		CE1B369C2788659000C33BDE /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369B2788659000C33BDE /* APButton.swift */; };
 		CE1B369E278866DD00C33BDE /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369D278866DD00C33BDE /* XDismissButton.swift */; };
 		CE1B36A02788887000C33BDE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369F2788887000C33BDE /* AccountViewModel.swift */; };
+		CE1B36A227888A9A00C33BDE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36A127888A9A00C33BDE /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		CE1B369B2788659000C33BDE /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		CE1B369D278866DD00C33BDE /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		CE1B369F2788887000C33BDE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		CE1B36A127888A9A00C33BDE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1B368727880CF900C33BDE /* Color+Ext.swift */,
+				CE1B36A127888A9A00C33BDE /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE1B367E2787456000C33BDE /* NetworkManager.swift in Sources */,
 				CE1B368A2788150A00C33BDE /* RemoteImage.swift in Sources */,
+				CE1B36A227888A9A00C33BDE /* String+Ext.swift in Sources */,
 				CE1B369927881ED500C33BDE /* AppetizerDetailView.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
 				CE1B36842787596C00C33BDE /* Alert.swift in Sources */,

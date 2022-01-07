@@ -17,4 +17,19 @@ final class AccountViewModel: ObservableObject {
     @Published var extraNapkins = false
     @Published var frequentRefills = false
     
+    @Published var alertItem: AlertItem?
+    
+    var isValidForm: Bool {
+        // Check if there is a values in all fields
+        guard !firstName.isEmpty && !lastName.isEmpty && !email.isEmpty else {
+            alertItem = AlertContext.invalidForm
+            return false
+        }
+        
+        guard email.isValidEmail else {
+            alertItem = AlertContext.invalidEmail
+            return false
+        }
+        return true
+    }
 }
