@@ -23,6 +23,7 @@
 		CE1B368627880BC300C33BDE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B368527880BC300C33BDE /* LoadingView.swift */; };
 		CE1B368827880CF900C33BDE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B368727880CF900C33BDE /* Color+Ext.swift */; };
 		CE1B368A2788150A00C33BDE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36892788150A00C33BDE /* RemoteImage.swift */; };
+		CE1B369927881ED500C33BDE /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369827881ED500C33BDE /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		CE1B368527880BC300C33BDE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CE1B368727880CF900C33BDE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		CE1B36892788150A00C33BDE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		CE1B369827881ED500C33BDE /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				CE1B36812787518200C33BDE /* AppetizerListViewModel.swift */,
 				CE14F90D2784B20400B36980 /* AppetizerListView.swift */,
+				CE1B369827881ED500C33BDE /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				CE14F9022784B17300B36980 /* AppetizerTabView.swift in Sources */,
 				CE1B367E2787456000C33BDE /* NetworkManager.swift in Sources */,
 				CE1B368A2788150A00C33BDE /* RemoteImage.swift in Sources */,
+				CE1B369927881ED500C33BDE /* AppetizerDetailView.swift in Sources */,
 				CE14F9002784B17300B36980 /* AppetizersApp.swift in Sources */,
 				CE1B36842787596C00C33BDE /* Alert.swift in Sources */,
 				CE14F90E2784B20400B36980 /* AppetizerListView.swift in Sources */,
