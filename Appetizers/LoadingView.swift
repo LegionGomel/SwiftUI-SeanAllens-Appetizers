@@ -12,7 +12,7 @@ struct ActivityIndicator: UIViewRepresentable {
     // makeUIView replace the body variable on our View
     func makeUIView(context: Context) -> UIActivityIndicatorView {
         let activityIndicatorView = UIActivityIndicatorView(style: .large)
-        activityIndicatorView.color = UIColor(named: "brandPrimary")
+        activityIndicatorView.color = UIColor.brandPrimary
         activityIndicatorView.startAnimating()
         return activityIndicatorView
     }
