@@ -75,20 +75,11 @@
 		CE14F8FE2784B17300B36980 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				CE1B369327881B9500C33BDE /* Model */,
+				CE1B368F27881B3400C33BDE /* Utilities */,
+				CE1B369427881BBD00C33BDE /* Views */,
+				CE1B368B27881AD400C33BDE /* Screens */,
 				CE14F8FF2784B17300B36980 /* AppetizersApp.swift */,
-				CE14F9012784B17300B36980 /* AppetizerTabView.swift */,
-				CE1B36812787518200C33BDE /* AppetizerListViewModel.swift */,
-				CE14F90D2784B20400B36980 /* AppetizerListView.swift */,
-				CE1B368527880BC300C33BDE /* LoadingView.swift */,
-				CE1B368727880CF900C33BDE /* Color+Ext.swift */,
-				CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */,
-				CE14F9132784BCB500B36980 /* Appetizer.swift */,
-				CE1B367D2787456000C33BDE /* NetworkManager.swift */,
-				CE1B36892788150A00C33BDE /* RemoteImage.swift */,
-				CE1B367F2787472600C33BDE /* APError.swift */,
-				CE14F90F2784B21400B36980 /* AccountView.swift */,
-				CE14F9112784B21C00B36980 /* OrderView.swift */,
-				CE1B36832787596C00C33BDE /* Alert.swift */,
 				CE14F9032784B17300B36980 /* Assets.xcassets */,
 				CE14F9052784B17300B36980 /* Preview Content */,
 			);
@@ -101,6 +92,119 @@
 				CE14F9062784B17300B36980 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE1B368B27881AD400C33BDE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE14F9012784B17300B36980 /* AppetizerTabView.swift */,
+				CE1B368C27881AE100C33BDE /* AppetizerListView */,
+				CE1B368D27881AEB00C33BDE /* AccountView */,
+				CE1B368E27881AF800C33BDE /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE1B368C27881AE100C33BDE /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B36812787518200C33BDE /* AppetizerListViewModel.swift */,
+				CE14F90D2784B20400B36980 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		CE1B368D27881AEB00C33BDE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				CE14F90F2784B21400B36980 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		CE1B368E27881AF800C33BDE /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				CE14F9112784B21C00B36980 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		CE1B368F27881B3400C33BDE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B369227881B6900C33BDE /* Alerts */,
+				CE1B369127881B4C00C33BDE /* Extensions */,
+				CE1B369027881B4100C33BDE /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE1B369027881B4100C33BDE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B367D2787456000C33BDE /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE1B369127881B4C00C33BDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B368727880CF900C33BDE /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE1B369227881B6900C33BDE /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B36832787596C00C33BDE /* Alert.swift */,
+				CE1B367F2787472600C33BDE /* APError.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		CE1B369327881B9500C33BDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE14F9132784BCB500B36980 /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE1B369427881BBD00C33BDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B369727881BFD00C33BDE /* Image */,
+				CE1B369627881BD000C33BDE /* Cells */,
+				CE1B369527881BC600C33BDE /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE1B369527881BC600C33BDE /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B368527880BC300C33BDE /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		CE1B369627881BD000C33BDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B367B2784C9E200C33BDE /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE1B369727881BFD00C33BDE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B36892788150A00C33BDE /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
