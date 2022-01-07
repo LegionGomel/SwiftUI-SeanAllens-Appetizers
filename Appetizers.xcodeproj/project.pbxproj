@@ -26,6 +26,7 @@
 		CE1B369927881ED500C33BDE /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369827881ED500C33BDE /* AppetizerDetailView.swift */; };
 		CE1B369C2788659000C33BDE /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369B2788659000C33BDE /* APButton.swift */; };
 		CE1B369E278866DD00C33BDE /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369D278866DD00C33BDE /* XDismissButton.swift */; };
+		CE1B36A02788887000C33BDE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B369F2788887000C33BDE /* AccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		CE1B369827881ED500C33BDE /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		CE1B369B2788659000C33BDE /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		CE1B369D278866DD00C33BDE /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		CE1B369F2788887000C33BDE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		CE1B368D27881AEB00C33BDE /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				CE1B369F2788887000C33BDE /* AccountViewModel.swift */,
 				CE14F90F2784B21400B36980 /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -298,6 +301,7 @@
 				CE1B36802787472600C33BDE /* APError.swift in Sources */,
 				CE1B369E278866DD00C33BDE /* XDismissButton.swift in Sources */,
 				CE1B367C2784C9E200C33BDE /* AppetizerListCell.swift in Sources */,
+				CE1B36A02788887000C33BDE /* AccountViewModel.swift in Sources */,
 				CE1B36822787518200C33BDE /* AppetizerListViewModel.swift in Sources */,
 				CE1B368827880CF900C33BDE /* Color+Ext.swift in Sources */,
 				CE14F9102784B21400B36980 /* AccountView.swift in Sources */,
