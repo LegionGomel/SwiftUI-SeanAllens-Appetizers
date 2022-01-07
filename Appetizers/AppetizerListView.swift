@@ -13,10 +13,14 @@ struct AppetizerListView: View {
     
     var body: some View {
         NavigationView {
+            if !viewModel.appetizers.isEmpty {
             List(viewModel.appetizers) { appetizer in
                 AppetizerListCell(appetizer: appetizer)
             }
             .navigationTitle("🍟 Appetizers")
+            } else {
+                ProgressView()
+            }
         }
         .onAppear {
             viewModel.getAppetizers()
