@@ -21,7 +21,11 @@ struct AccountView: View {
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
-                    DatePicker("Birthday", selection: $viewModel.user.birthdate, displayedComponents: .date)
+                    
+                    DatePicker("Birthday",
+                               selection: $viewModel.user.birthdate,
+                               in: Date().oneHundredTenYearsAgo...Date().eighteenYearsAgo,
+                               displayedComponents: .date)
                     Button {
                         viewModel.saveChanges()
                     } label: {
@@ -30,6 +34,7 @@ struct AccountView: View {
                 } header: {
                     Text("Personal Info")
                 }
+                
                 Section {
                     Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
                     Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
