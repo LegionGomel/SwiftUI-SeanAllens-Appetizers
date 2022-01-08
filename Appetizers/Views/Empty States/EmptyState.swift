@@ -37,6 +37,6 @@ struct EmptyState: View {
 
 struct EmptyState_Previews: PreviewProvider {
     static var previews: some View {
-        EmptyState(imageName: "empty-order", message: "This is our test message.\n I'm making it a little long for testing")
+        EmptyState(imageName: "empty-order", message: "This is our test message.\n I'm making it a little long for testing.")
     }
 }

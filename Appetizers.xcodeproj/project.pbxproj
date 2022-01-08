@@ -30,6 +30,7 @@
 		CE1B36A227888A9A00C33BDE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36A127888A9A00C33BDE /* String+Ext.swift */; };
 		CE1B36A4278979AF00C33BDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36A3278979AF00C33BDE /* User.swift */; };
 		CE1B36A72789CF1800C33BDE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36A62789CF1800C33BDE /* EmptyState.swift */; };
+		CE1B36A92789D2EB00C33BDE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B36A82789D2EB00C33BDE /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		CE1B36A127888A9A00C33BDE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		CE1B36A3278979AF00C33BDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE1B36A62789CF1800C33BDE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		CE1B36A82789D2EB00C33BDE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				CE14F9132784BCB500B36980 /* Appetizer.swift */,
 				CE1B36A3278979AF00C33BDE /* User.swift */,
+				CE1B36A82789D2EB00C33BDE /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				CE1B36802787472600C33BDE /* APError.swift in Sources */,
 				CE1B369E278866DD00C33BDE /* XDismissButton.swift in Sources */,
 				CE1B367C2784C9E200C33BDE /* AppetizerListCell.swift in Sources */,
+				CE1B36A92789D2EB00C33BDE /* Order.swift in Sources */,
 				CE1B36A02788887000C33BDE /* AccountViewModel.swift in Sources */,
 				CE1B36822787518200C33BDE /* AppetizerListViewModel.swift in Sources */,
 				CE1B368827880CF900C33BDE /* Color+Ext.swift in Sources */,

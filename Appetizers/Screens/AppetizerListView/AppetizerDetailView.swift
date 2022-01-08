@@ -9,6 +9,11 @@ import SwiftUI
 
 struct AppetizerDetailView: View {
     
+    // This behaves like that: it assuming that when we wrote
+    // this var, it try to look in environment for that object.
+    // App will crash if we do not injected this object properly
+    @EnvironmentObject var order: Order
+    
     let appetizer: Appetizer
     @Binding var isShowingDetail: Bool
     
@@ -38,7 +43,7 @@ struct AppetizerDetailView: View {
             Spacer()
             
             Button {
-                print("tapped")
+                order.add(appetizer)
             } label: {
                 APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
