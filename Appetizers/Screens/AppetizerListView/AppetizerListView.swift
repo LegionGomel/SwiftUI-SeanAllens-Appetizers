@@ -21,6 +21,7 @@ struct AppetizerListView: View {
                             viewModel.isShowingDetail = true
                         }
                 }
+                .listStyle(.plain)
                 .navigationTitle("🍟 Appetizers")
                 .disabled(viewModel.isShowingDetail)
             }
