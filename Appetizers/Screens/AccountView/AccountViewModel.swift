@@ -9,9 +9,8 @@ import SwiftUI
 
 final class AccountViewModel: ObservableObject {
     
-    
+    @AppStorage("user") private var userData: Data?
     @Published var user = User()
-    
     @Published var alertItem: AlertItem?
     
     var isValidForm: Bool {
@@ -29,8 +28,28 @@ final class AccountViewModel: ObservableObject {
     }
     
     func saveChanges() {
+        // Validate our user form
         guard isValidForm else { return }
+        do {
+            // Try to encode user
+            let data = try JSONEncoder().encode(user)
+            // Save encoded data to user defaults at key "user"
+            userData = data
+            // Show success alert
+            alertItem = AlertContext.userSaveSuccess
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
+    }
+    
+    func retrieveUser() {
+        // Make sure that we have data in user defaults
+        guard let userData = userData else { return }
         
-        print("save")
+        do {
+            user = try JSONDecoder().decode(User.self, from: userData)
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
     }
 }
