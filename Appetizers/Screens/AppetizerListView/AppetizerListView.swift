@@ -17,8 +17,10 @@ struct AppetizerListView: View {
                 List(viewModel.appetizers) { appetizer in
                     AppetizerListCell(appetizer: appetizer)
                         .onTapGesture {
-                            viewModel.selectedAppetizer = appetizer
-                            viewModel.isShowingDetail = true
+                                viewModel.selectedAppetizer = appetizer
+                            withAnimation {
+                                viewModel.isShowingDetail = true
+                            }
                         }
                 }
                 .listStyle(.plain)
@@ -29,6 +31,7 @@ struct AppetizerListView: View {
                 viewModel.getAppetizers()
             }
             .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+            .animation(.none)
             
             if viewModel.isShowingDetail {
                 AppetizerDetailView(appetizer: viewModel.selectedAppetizer!,

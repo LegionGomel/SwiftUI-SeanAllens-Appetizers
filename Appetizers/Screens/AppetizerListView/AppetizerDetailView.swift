@@ -15,7 +15,7 @@ struct AppetizerDetailView: View {
     @EnvironmentObject var order: Order
     
     let appetizer: Appetizer
-    @Binding var isShowingDetail: Bool
+    @Binding var isShowingDetail : Bool
     
     var body: some View {
         VStack {
@@ -54,8 +54,11 @@ struct AppetizerDetailView: View {
         .background(Color(.systemBackground))
         .cornerRadius(12)
         .shadow(radius: 40)
+        .transition(.scale)
         .overlay(Button {
-            isShowingDetail = false
+            withAnimation {
+                isShowingDetail = false
+            }
         } label: {
             XDismissButton()
         }

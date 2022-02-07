@@ -31,7 +31,7 @@ struct RemoteImage: View {
     }
 }
 
-// Third, this View we will use as our main View wit other parts under the hood.
+// Third, this View we will use as our main View with other parts under the hood.
 struct AppetizerRemoteImage: View {
     
     @StateObject var imageLoader = ImageLoader()
